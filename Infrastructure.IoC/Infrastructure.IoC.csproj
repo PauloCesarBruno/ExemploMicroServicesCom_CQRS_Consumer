@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Azul.Framework.IoC" Version="4.3.7" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Infrastructure.Data\Infrastructure.Data.csproj" />
+	  <ProjectReference Include="..\Infrastructure.Subscribers\Infrastructure.Subscribers.csproj" />
+	</ItemGroup>
+
+</Project>
